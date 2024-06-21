@@ -1,0 +1,139 @@
+.navbar{
+    background-color: #1E202B ;
+}
+.logo h1{
+    font-size: 16px;
+    color: white;
+}
+.logo p{
+    font-size: 10px;
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    padding: 0px 20px 0px 20px;
+    border: 3px  solid  transparent;
+    border-radius: 30px;
+}
+.navbar-nav{
+    gap: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #009AD8;
+    border:3px solid #009AD8;
+   
+}
+section{
+    background-image: url(img/banner.png) ;
+    background-color: #222531;
+    height: 350px;
+}
+.search{
+    position: relative;
+}
+.search button{
+    position: absolute;
+    content: "";
+    right: 80px;
+    top: 4px;
+    height: 50px;
+    z-index: 55;
+}
+
+.time{
+    background: #2D303D;
+    /* border: 15px 15px 15px 15px; */
+}
+
+.time p{
+    margin: 0px;
+    padding: 10px;
+}
+.timediff{
+    background-color:#222531;
+}
+
+.timediff p{
+    margin: 0px;
+    padding: 10px;
+}
+.details h2{
+    font-size: 75px;
+}
+.details ul{
+    list-style: none;
+    padding: 0px;
+}
+.details li p{
+    margin: 0px;
+    margin-left: 5px; 
+}
+.col-md-4{
+    background: #323544;
+    padding: 0px;
+    /* border-radius: 15px 15px 15px 15px; */
+}
+.middle{
+    background: #262936;
+}
+main{
+    background-color: #1E202B;
+}
+.block{
+    position: relative;
+    top: -100px;
+}
+footer{
+    background-color: #323544;
+}
+.feedback{
+    position: relative;
+}
+.feedback button{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.links li{
+    width: 40px;
+    height: 40px;
+    background: #1E202B;
+    border-radius: 50%;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #009AD8;
+    transition: all 0.5s;
+}
+.links li:hover{
+    color: white;
+    background: #009AD8;
+}
+.search #search{
+    background: #1E202B;
+    border: 0px;
+    color: rgb(162, 162, 162);
+
+}
+.search #search:focus{
+    z-index: 0;
+}
+.search #search::placeholder{
+    color: rgb(162, 162, 162);
+}
+.feedback input{
+    background: #1E202B;
+    border: 0px;
+    color: white;
+}
+.feedback input:focus{
+    z-index: 0;
+    background: #1E202B;
+    color: rgb(162, 162, 162);
+   
+}
+.feedback input::placeholder{
+    color: rgb(162, 162, 162);
+}
